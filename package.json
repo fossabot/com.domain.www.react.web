@@ -1,0 +1,19 @@
+{
+  "name": "com.domain.www.react.web",
+  "description": "react, webpack, mocha, chai, nodemon with nodejs web application",
+  "author": "bilgi(at)azmisahin.com",
+  "license": "Apache-2.0",
+  "version": "0.1.0",
+  "main": "main.js",
+  "scripts": {
+    "install": "webpack",
+    "test": "mocha",
+    "start": "nodemon"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.5.0",
+    "nodemon": "^1.11.0",
+    "webpack": "^3.5.5"
+  }
+}
